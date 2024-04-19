@@ -1,0 +1,89 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(assest/clouds2.jpeg) no-repeat fixed center;
+    background-color: green;
+    background-size: cover;
+    height:100%;
+   
+}
+
+#container{
+
+    color: white;
+    width: 400px;
+    margin: 10vh auto;
+    border: 2px solid silver;
+    box-shadow: 3px 3px 10px black;
+    background-color: #75383b52;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1{
+    background-color:  #03ac92;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: normal;
+    text-shadow: 2px 2px 1px rgb(1, 207, 63), 0 0 2px black;
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+
+}
+
+.completed{
+    color: #999;
+    text-decoration: line-through;
+}
+
+ul{
+    list-style: none;
+    line-height: 40px;
+}
+
+li{
+    padding-left: 10px;
+}
+
+li:nth-child(2n){
+    background-color: #905c5080;
+}
+
+input{
+    background-color: #fdf5f5;
+    width:100%;
+    padding: 13px 13px 13px 20px;
+    color:#2980b9;
+    font-size:18px;
+}
+
+input:focus{
+    background-color: white;
+    border: 3px solid green;
+    outline: none;
+    color: #333;
+}
+
+span{
+    background-color: darkred;
+    color: white;
+    height: 40px;
+    margin: 0 0 0 20px;
+    opacity: 0;
+    padding: 3px 15px;
+    float: right;
+    transition: .3s linear;
+}
+
+li:hover span{
+    opacity: 1;
+}
+
+
+
